@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:weightSum="1"
+    tools:context="com.mann.store.Vegetables"
+    android:background="#000000">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view1"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_weight="0.18"
+                app:cardCornerRadius="4dp"
+                app:cardBackgroundColor="#000000">
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/banana"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"/>
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:text="Banana"
+                    android:textAlignment="center"
+                    android:textColor="#F5F5F5"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_weight="0.18"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="#000000">
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/oranges"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Orange"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_weight="0.18"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="#000000">
+
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pineapple"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Pineapple"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view4"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_weight="0.18"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="#000000">
+
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/guava"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Guava"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view5"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_weight="0.18"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="#000000">
+
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kiwi"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Kiwi"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view6"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_weight="0.18"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="#000000">
+
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grapes"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Grapes"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view7"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_weight="0.18"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="#000000">
+
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pear"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Pear"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view8"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_weight="0.18"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="#000000">
+
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mango"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Mango"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+</ScrollView>
